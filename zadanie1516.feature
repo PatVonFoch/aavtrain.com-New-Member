@@ -6,8 +6,8 @@ Feature: New Member on AAV Train webpage
     And user fills in first name "<name>" and last name "<surname>"
     And user fills in email address "<email>" and creating Username "<username>"
     And user fills in Address1 "<address>"
-    And user fills in City "<city>>"
-    And user fills in State "<state>>" and Zip Code "<zip code>>"
+    And user fills in City "<city>"
+    And user fills in State "<state>" and Zip Code "<zip code>"
     And User fills in password "<password>"
     Then clicks a submit button to become member
 Examples:
